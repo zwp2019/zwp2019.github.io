@@ -57,6 +57,70 @@
 
     
       
+        <article id="post-别人眼中的JavaScript" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h2 itemprop="name">
+      <a class="article-title" href="/2019/07/29/别人眼中的JavaScript/">别人眼中的JavaScript</a>
+    </h2>
+  
+  
+
+
+
+
+      </header>
+    
+
+    
+      <div class="article-meta">
+        <a href="/2019/07/29/别人眼中的JavaScript/" class="article-date">
+  <time datetime="2019-07-29T01:17:37.000Z" itemprop="datePublished">2019-07-29</time>
+</a>
+        
+      </div>
+    
+
+    <div class="article-entry" itemprop="articleBody">
+      
+
+      
+
+      
+        <h2 id="别人眼中的JavaScript"><a href="#别人眼中的JavaScript" class="headerlink" title="别人眼中的JavaScript"></a>别人眼中的JavaScript</h2><p>JavaScript的默认对象表示方式<code>{}</code>可以视为其他语言中的<code>Map</code>或<code>Dictionary</code>的数据结构，即一组键值对。</p>
+<p>但是JavaScript的对象有个小问题，就是键必须是字符串。但实际上Number或者其他数据类型作为键也是非常合理的。</p>
+<p>为了解决这个问题，最新的ES6规范引入了新的数据类型<code>Map</code>。要测试你的浏览器是否支持ES6规范，请执行以下代码，如果浏览器报ReferenceError错误，那么你需要换一个支持ES6的浏览器：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> m = <span class="keyword">new</span> <span class="built_in">Map</span>([[<span class="string">'Michael'</span>,<span class="number">95</span>],[<span class="string">'Bob'</span>,<span class="number">75</span>]]);</span><br><span class="line">m.get(<span class="string">'Bob'</span>);<span class="comment">// 75</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>Map 是一组键值对的结构，具有极快的查找速度。</p>
+</blockquote>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/07/29/别人眼中的JavaScript/" data-id="cjynpxbei00026cp5jorj7ykx"
+         class="article-share-link">Share</a>
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/杂记/">杂记</a></li></ul>
+
+    </footer>
+
+  </div>
+
+  
+
+  
+
+</article>
+
+
+
+      
         <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
@@ -108,7 +172,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/07/26/hello-world/" data-id="cjynp9d9o00000up5q9xht1zw"
+      <a data-url="http://yoursite.com/2019/07/26/hello-world/" data-id="cjynpxbe400006cp5uidnc63s"
          class="article-share-link">Share</a>
       
     </footer>
